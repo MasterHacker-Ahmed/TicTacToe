@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cascadia Code', 'Courier New', monospace;
+    background-color: #3C3D37;
+    text-align: center;
+    color: #E7E9D2;
+}
+
+.container {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vh;
+    width: 36vw;
+    gap: 1.5vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    height: 20vmin;
+    width: 10vw;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 5px 8px 0.1rem #000;
+    font-size: 12vmin;
+    background-color: #D8D2C2;
+    color: red;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #181C14;
+    color: #E7E9D2;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #181C14;
+    color: #E7E9D2;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+#msg {
+    font-size: 2rem;
+    color: #E7E9D2;;
+}
+
+.msg-container {
+    height: 20vh;
+}
+
+.hide {
+    display: none;
+}
